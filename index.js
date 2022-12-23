@@ -94,6 +94,10 @@ function fetchSettings(callback) {
 			});
 		}
 
+		AWS.config.update({
+			signatureVersion: 'v4'
+		});
+
 		if (typeof callback === "function") {
 			callback();
 		}
