@@ -28,7 +28,7 @@
     "url": "https://github.com/NodeBB-Community/nodebb-plugin-s3-uploads/issues"
   },
   "nbbpm": {
-    "compatibility": "^1.5.0"
+    "compatibility": "^2.0.0"
   },
   "dependencies": {
     "aws-sdk": "^2.0.23",
