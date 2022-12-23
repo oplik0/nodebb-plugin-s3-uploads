@@ -1,3 +1,14 @@
+# 🍴 _This is a fork_
+
+This package is published on npm as @nodebb-community/nodebb-plugin-s3-uploads
+
+This repository is a further fork of the fork by [LouiseMcMahon](//github.com/LouiseMcMahon), with the following changes:
+
+1. ~~Compatibility with v2.x of NodeBB~~
+1. [feat: update allowMimeTypes to match latest NodeBB](https://github.com/LouiseMcMahon/nodebb-plugin-s3-uploads/pull/28)
+1. [fix: outdated module require statements](https://github.com/LouiseMcMahon/nodebb-plugin-s3-uploads/pull/27)
+1. [Fix for "Please use AWS4-HMAC-SHA256" error"](https://github.com/LouiseMcMahon/nodebb-plugin-s3-uploads/pull/26)
+
 # NodeBB S3 Uploads Plugin
 
 [![Dependency Status](https://david-dm.org/LouiseMcMahon/nodebb-plugin-s3-uploads.svg)](https://david-dm.org/LewisMcMahon/nodebb-plugin-s3-uploads)
@@ -12,7 +23,7 @@ This plugin is a fork of [nodebb-plugin-s3-uploads](https://github.com/earthsenz
 | 0.3.3          | NodeBB         | >= 0.6.0 |
 | 0.3.4          | NodeBB         | >= 1.0.0 |
 
-A plugin for NodeBB to take file uploads and store them on S3, uses the `filter:uploadImage` hook in NodeBB. 
+A plugin for NodeBB to take file uploads and store them on S3, uses the `filter:uploadImage` hook in NodeBB.
 
 
 ## S3 Uploads Configuration
